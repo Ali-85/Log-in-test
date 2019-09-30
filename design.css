@@ -1,0 +1,245 @@
+body {
+  font-family: 'Quicksand', sans-serif;
+  background-color: rgba(197,198,199,1);
+  text-align: center;
+}
+
+/*====== the div that hold all divs ======= */
+.allholder {
+  width: 850px;
+  height: 450px;
+  padding: auto;
+  margin-top: 80px;
+  display: inline-block;
+  text-align: center;
+  border-radius: 18px;
+  box-shadow: 0px 0px 10px 0px rgba(90,88,91,1);
+  }
+
+/*==== SVG icon linked from (fontawesome.com) ===== */
+#addfriend {
+  text-align: center;
+  margin: auto;
+  padding-top: 60px;
+  color: white;
+
+}
+
+/* ========== Header (Hello, friend !) =========== */
+.hi  {
+  color: white;
+}
+
+/* ===== Paragraph (Enter your personal details ..) ===== */
+.persoDetails{
+  color: white;
+  margin: 0 30px 0 30px;
+  padding: 20px;
+}
+/*======== registration button =========*/
+.registerButton {
+  position: relative;
+  display: inline-block;
+  margin: 0px;
+  width: 180px;
+  height: 45px;
+  font-family: 'Quicksand', sans-serif;
+  font-weight: bold;
+  background-color: transparent;
+  border: 1px solid white;
+  border-radius: 25px;
+  color: white;
+  font-weight: bold;
+  transition: 0.4s;
+  cursor: pointer;
+}
+
+/*=======the word REGISTER inside the button =========*/
+span {
+  font-size: 16px;
+  padding-right: 15px;
+}
+
+/*======= the purple side div ========*/
+.containerColored {
+  margin-left: 0;
+  padding-left: 0;
+  padding-bottom: 0px;
+  float: right;
+  width: 50%;
+  height: 450px;
+  border: none;
+  background-image: url(./images/bgcity.jpg);
+  /*background-color: rgba(102,48,179,1);*/
+  border : none;
+  border-radius: 0 18px 18px 0;
+}
+
+
+/*========= the header Log In (white side)==========*/
+.loginTop {
+  margin-top: 30px;
+  color:rgba(102,48,179,1);
+}
+
+
+/*======= the white side div ========*/
+.containerwhite {
+  text-align: center;
+  padding: auto;
+  margin: auto;
+  float: left;
+  width: 50%;
+  height: 450px;
+  background-color: white;
+  border: none;
+  border-radius: 18px 0 0 18px;
+
+}
+
+
+/*======Div holdes input (email & password)======*/
+.textFields {
+  padding-bottom: 20px;
+  margin: 40px 0 10px 0;
+
+}
+
+/*========the class name of both inputs========*/
+.field{
+  font-family: 'Quicksand', sans-serif;
+  width: 280px;
+  height: 30px;
+  border: none;
+  border: solid 1px rgba(102,48,179,1);
+  border-radius: 3px;
+}
+
+
+/*======== forget passwword? link (<a>) =======*/
+#forget {
+  text-decoration: none;
+  float: right;
+  color: grey;
+}
+
+/*======= remember me =======*/
+.leftInfo {
+  color: grey;
+  display:inline;
+  padding-right: 40px;
+}
+
+/*===== the chek box input ========*/
+.shekBox {
+  float: left;
+  width: 15px;
+  height: 15px;
+  border-radius: none;
+
+}
+
+/*===== table holdes chekbox, remember Me , forget password =====*/
+.remForg {
+  font-size: 14px;
+  padding:  auto;
+  margin: auto;
+
+}
+
+/*======== the button tag ========*/
+ .logButt {
+  text-align: center;
+  font-family: 'Quicksand', sans-serif ;
+  background-color: rgba(102,48,179,1);
+  height: 40px;
+  width: 285px;
+  border: none;
+  border-radius: 3px;
+  margin-bottom: 10px;
+ }
+
+/*=======LOG IN word inside button tag (<a>)=======*/
+.logoBtnWord {
+  height: 30px;
+  color: white;
+  padding: 9px 0 0 5px;
+  margin: 0;
+}
+
+/*=======table holdes horisental line , (or conect with)=======*/
+.bottomTable {
+  margin: auto;
+  padding: 20px 0 20px 0;
+}
+
+.leftLine {
+ padding-right: 10px;
+ width: 70px;
+
+}
+
+.rightLine {
+  padding-left: 10px;
+  width: 70px;
+
+}
+
+/*==== get rid of default underline in ancher tag ====*/
+a {
+  text-decoration: none;
+}
+
+
+/*===== id for all social media icons ====*/
+#social {
+  color: grey;
+  padding-left: 7px;
+  padding-right: 7px;
+}
+
+/*======= copyrights 2019 ======*/
+.copyright {
+  text-align: center;
+  color: grey;
+  margin:auto;
+  padding-top: 20px;
+}
+
+/* [[[[[[[[[[[[[[[[[[[[[  Mose Hover ]]]]]]]]]]]]]]]]*/
+
+
+/* =========== forget password ========*/
+#forget:hover {
+
+  color: rgba(102,48,179,1);
+  text-decoration: underline;
+  transition:all 0.3s ease;
+}
+
+/* ========= log in button ==========*/
+.logButt:hover {
+  border: solid 1px rgba(102,48,179,1);
+  background-color: white;
+
+}
+
+/* ========= LOG IN button (word) ==========*/
+.logoBtnWord:hover {
+  color: rgba(102,48,179,1);
+}
+
+/* =========== social media icons ============*/
+#social:hover {
+  color: rgba(102,48,179,1);
+}
+
+
+/* ================ register buton ============== */
+.registerButton:hover {
+  color:rgba(102,48,179,1);
+  background-color: white;
+  transition: all 0.2s ease;
+  padding-left: 5px;
+  border: solid 1px rgba(115,113,120,1);
+}

@@ -1,0 +1,37 @@
+/* =============== Responsive ============ */
+
+@media screen and (max-width: 850px) {
+
+/*====== the div that hold all divs ======= */
+
+.allholder {
+  display: flex;
+  flex-flow: wrap;
+  justify-content: center;
+  text-align:center;
+  height: 900px;
+  width: 450px;
+  padding: 0;
+  margin: auto;
+}
+
+/*=========Div that hold Purpul part register =========== */
+.containerColored{
+  position: relative;
+  float: none;
+  width: auto;
+  top: 450px;
+  border-radius: 0 0 18px 18px;
+}
+
+/*=========Div that hold white part  log in =========== */
+.containerwhite {
+  width: 450px;
+  position: absolute;
+  margin-top: 0;
+  float: none;
+  border-radius: 18px 18px 0 0;
+
+}
+
+}
