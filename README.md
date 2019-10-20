@@ -1,3 +1,3 @@
 # Log-in-test
-UI Log in test using HTML and CSS (responsive)
+UI Design for a Log in page using HTML and CSS (responsive)
 
